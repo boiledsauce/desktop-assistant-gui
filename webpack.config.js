@@ -37,7 +37,9 @@ module.exports = {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
     port: 9000,
-    hot: true
+    hot: true,
+    historyApiFallback: true,
+    publicPath: '/'
   },
   // This option controls if and how source maps are generated.
   devtool: 'source-map',

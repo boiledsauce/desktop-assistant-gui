@@ -7,7 +7,7 @@ interface Event {
     last_write: string;
 }
 
-const MainPage = () => {
+const DuplicateCleanup = () => {
     const [events, setEvents] = useState<Event[]>([]);
 
     useEffect(() => {
@@ -87,4 +87,4 @@ const MainPage = () => {
     );
 }
 
-export default MainPage;
+export default DuplicateCleanup;
